@@ -1,0 +1,1316 @@
+
+@media screen and (max-width: 1024px) {
+
+    /*///lazer\\\*/
+    .container-slider-lazer {
+        height: 71%;
+    }
+
+    .lazer-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lazer-img {
+        transform: translateY(-20%);
+        width: 90%;
+        height: 60%;
+    }
+
+    .lazer-text {
+        transform: translateX(0%);
+        width: 80%;
+    }
+
+    .swiper-pagination-lazer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        position: absolute;
+        top: 51%;
+    }
+
+    :root {
+        --swiper-navigation-size-lazer: 10px;
+    }
+
+    .swiper-button-next-lazer,
+    .swiper-button-prev-lazer {
+        top: 90%;
+        padding: 18px 14px;
+    }
+
+    .swiper-button-prev-lazer,
+    .swiper-container-rtl .swiper-button-next-lazer {
+        right: 60px;
+    }
+
+    .swiper-button-next-lazer,
+    .swiper-container-rtl .swiper-button-prev-lazer {
+        right: 22px;
+        left: auto;
+    }
+
+    .lazer-title {
+        font-size: 16px;
+    }
+
+    .lazer-descri {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-height: 768px) {
+
+    /*////Instalações\\\\*/
+    .swiper-slide-inst {
+        max-width: 230px;
+        max-height: 300px;
+    }
+
+
+    /*///Eventos\\\*/
+
+    .swiper-container-eventos {
+        width: 100%;
+        position: relative;
+        max-height: 370px;
+    }
+
+    .slider-image-eventos img{
+        height: 250px;
+    }
+
+    .slider-content-eventos h1 {
+        font-size: 16px;
+    }
+
+    .slider-content-eventos {
+        padding-top: 15px;
+    }
+
+    .swiper-button-next-eventos,
+    .swiper-button-prev-eventos {
+        top: 80%;
+        padding: 18px 14px;
+    }
+
+    .swiper-button-prev-eventos,
+    .swiper-container-rtl .swiper-button-next-eventos {
+        right: 50px;
+    }
+
+    .swiper-button-next-eventos,
+    .swiper-container-rtl .swiper-button-prev-eventos {
+        right: 12px;
+        left: auto;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .video-container video {
+        transform: translate(-40%, -0%);
+    }
+
+    /*///Home\\\*/
+    .swiper-slide .title p{
+        font-size: 20px;
+    }
+
+    /*Sobre*/
+    .slide-text h1 {
+        font-size: 15px;
+    }
+
+    .slide-text p {
+        font-size: 11px;
+    }
+
+    /*////Instalações\\\\*/
+    .text-inst p{
+        width: 80%;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .swiper-slide-inst p{
+        font-size: 12px;
+    }
+
+    .swiper-pagination-bullet{
+        width: 6px;
+    }
+
+    .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 1.5px;
+    }
+
+    /*////Suites\\\\*/
+    .tab-menu{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    /*Diminuindo a img para enquadramento no mobile PAISAGEM*/
+    .tab-content .suites img {
+        max-width: 80%;
+        padding-top: 10px;
+    }
+
+    .text-suites h4{
+        font-size: 12px;
+        width: 80%;
+        padding-top: 6px;
+    }
+
+    .swiper-slide-suites .suites h5{
+        font-size: 12px;
+        padding-top: 30px;
+    }
+
+    /*///Lazer\\\*/
+
+    .lazer-title {
+        font-size: 14px;
+    }
+
+    .lazer-descri {
+        font-size: 12px;
+        line-height: 1.3em;
+    }
+
+    /*///Eventos\\\*/
+
+    .swiper-container-eventos {
+        width: 100%;
+        position: relative;
+        max-height: 500px;
+    }
+
+    .slider-image-eventos img{
+        height: 350px;
+    }
+
+    .slider-content-eventos {
+        padding-top: 25px;
+        padding-left: 10%;
+    }
+
+    .slider-content-eventos h1 {
+        font-size: 18px;
+    }
+
+    .slider-content-eventos p {
+        font-size: 12px;
+    }
+
+    :root {
+        --swiper-navigation-size-eventos: 10px;
+    }
+
+    .swiper-button-next-eventos,
+    .swiper-button-prev-eventos {
+        padding: 18px 14px;
+    }
+
+    .swiper-button-prev-eventos,
+    .swiper-container-rtl .swiper-button-next-eventos {
+        right: 50px;
+
+    }
+
+    .swiper-button-next-eventos,
+    .swiper-container-rtl .swiper-button-prev-eventos {
+        right: 12px;
+        left: auto;
+    }
+
+    /*///Informações\\\*/
+
+    .content .cont-apc {
+        padding-top: 12px;
+        padding-left: 15%;
+        padding-right: 15%;
+
+    }
+
+    /*///Contato\\\*/
+
+    .linha-2 {
+        padding-top: 15px;
+    }
+
+    .cont-logo img {
+        width: 20vh;
+    }
+
+    .cont-info {
+        width: 75%;
+        text-align: center;
+    }
+
+    .cont-ender {
+        width: 70%;
+        text-align: center;
+    }
+
+    .cont-tur img{
+        width: 15vh;
+    }
+
+    .cont-footer li{
+        padding-top: 20px;
+    }
+
+
+}
+
+@media screen and (max-height: 414px) {
+
+    header img { 
+        width: 50vh;
+    }
+
+    .video-container video {
+        transform: translate(-30%, -20%);
+    }
+
+    :root {
+        --swiper-navigation-size: 30px;
+    }
+
+    .swiper-button-prev {
+        height: 0;
+        left: -20px;    
+    }
+
+    .swiper-button-next {
+        height: 0;
+        right: -20px;
+    }
+
+    .loading-center {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        height: 65px;
+        width: 80px;
+    }    
+
+    .icon-scroll {
+        width: 30px;
+        height: 50px;
+        margin: auto;
+        box-shadow: inset 0 0 0 2px #000;
+        border-radius: 25px;
+        z-index: 1;
+    }
+
+    .icon-scroll:before {
+        width: 4px;
+        height: 8px;
+        top: 6px;
+    }
+
+    @keyframes scroll {
+        0% {
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+        }
+    }
+
+
+    /*////Menu Acordian\\\\*/
+
+    nav li {
+        height: 25px;
+    }
+
+    nav li a {
+        font-size: 10px;
+    }
+
+    nav li a i {
+        top: 5px;
+        font-size: 14px;
+    }
+
+    a:hover {
+        padding: 0px 20px 0 50px;
+    }
+
+    /*////Instalações\\\\*/
+
+    .text-inst {
+        font-size: 14px;
+    }
+
+    .text-inst p{
+        font-size: 14px;
+    }
+
+    .swiper-slide-inst {
+        max-width: 100px;
+        max-height: 150px;
+    }
+
+    .swiper-slide-inst p{
+        font-size: 10px;
+        bottom: 6px;
+        right: 4px;
+    }
+
+    /*///Suites\\\*/
+    .titulo-suites h4 {
+        padding-top: 20px;
+        padding-bottom: 3px;
+        font-size: 14px;
+    }
+
+    .text-suites h4{
+        font-size: 10px;
+    }
+
+    .tab-menu .swiper-slide-suites{
+        padding: 3px 0 3px 0;
+    }
+
+    .tab-menu .swiper-slide-suites h5{
+        font-size: 12px;
+    }
+
+    .swiper-slide-suites .suites h5{
+        font-size: 11px;
+        padding-top: 15px;
+    }
+
+    .tab-content .suites img {
+        max-width: 45%;
+        padding-top: 5px; 
+    }
+
+    /*///Culinária\\\*/
+    .swiper-slide-culi .content-culi {
+        width: 70%;
+    }
+
+    .swiper-slide-culi .content-culi .title-culi {
+        font-size: 16px;
+    }
+
+    :root {
+        --swiper-navigation-size-culi: 20px;
+    }
+    .swiper-button-prev-culi,
+    .swiper-button-next-culi {
+        top: 45%;
+        width: calc(var(--swiper-navigation-size-culi) / 20 * 27);
+        height: var(--swiper-navigation-size-culi);
+        margin-top: calc(0 - (var(--swiper-navigation-size-culi) / 2));
+        padding: 20px 0px;
+    }
+
+    .swiper-button-prev-culi,
+    .swiper-container-rtl .swiper-button-next-culi {
+        right: 38px;
+        left: auto;
+    }
+    .swiper-button-next-culi,
+    .swiper-container-rtl .swiper-button-prev-culi {
+        right: 5px;
+        left: auto;
+    }
+
+    /*///lazer\\\*/
+
+    .container-slider-lazer {
+        height: 280px;
+        top: 20px;
+    }
+
+    .lazer-img {
+        transform: translateY(-30%);
+        height: 70%;
+    }
+
+    .lazer-text {
+        margin-right: 50px;
+        transform: translateY(-30%);
+        width: 85%;
+    }
+
+    .lazer-descri {
+        padding-top: 5px;
+        line-height: 1.2em;
+    }
+
+    .swiper-button-next-lazer,
+    .swiper-button-prev-lazer {
+        top: 67%;
+        padding: 15px 12px;
+    }
+
+    .swiper-button-prev-lazer,
+    .swiper-container-rtl .swiper-button-next-lazer {
+        right: 40px;
+    }
+
+    .swiper-button-next-lazer,
+    .swiper-container-rtl .swiper-button-prev-lazer {
+        right: 10px;
+    }
+    .swiper-pagination-lazer {
+        top: 53%;
+    }
+
+    .swiper-pagination-lazer-bullet {
+        width: 5px;
+        height: 12px;
+    }
+
+    /*///Eventos\\\*/
+
+    .titulo-eventos h4 {
+        padding-bottom: 5px;
+        font-size: 14px;
+    }
+
+    .swiper-container-eventos {
+        max-height: 250px;
+    }
+
+    .slider-image-eventos img{
+        height: 150px;
+    }
+
+    .slider-content-eventos {
+        padding-top: 10px;
+    }
+
+    .slider-image-eventos img{
+        height: 150px;
+    }
+
+    .slider-content-eventos h1 {
+        font-size: 16px;
+    }
+
+    .slider-content-eventos p {
+        font-size: 12px;
+    }
+
+    :root {
+        --swiper-navigation-size-eventos: 10px;
+    }
+    .swiper-button-next-eventos,
+    .swiper-button-prev-eventos {
+        top: 75%;
+        padding: 15px 12px;
+    }
+
+    .swiper-button-prev-eventos,
+    .swiper-container-rtl .swiper-button-next-eventos {
+        right: 50px;
+    }
+    .swiper-button-next-eventos,
+    .swiper-container-rtl .swiper-button-prev-eventos {
+        right: 12px;
+        left: auto;
+    }
+
+    /*///Informações\\\*/
+
+    .titulo-valores h4 {
+        padding-bottom: 5px;
+        font-size: 14px;
+    }
+
+    /*Caixa nav*/
+    .tab-menu-valores .swiper-slide-valores{
+        padding: 7px 0 7px 0;
+    }
+
+    .tab-menu-valores .swiper-slide-valores h5{
+        font-size: 12px;
+    }
+
+    /*///Valores\\\*/
+
+    .valor {
+        padding-top: 5px;
+    }
+
+    table thead th {
+        padding: 8px;
+        font-size: 11px;
+    }
+
+    .titulo-valores-suite-gold,
+    .titulo-valores-suite-silver,
+    table tbody tr td {
+        font-size: 11px;
+    }
+
+    /*Text linhas*/
+    table tbody tr td {
+        padding: 5px;
+    }
+
+    /*///Avisos\\\*/
+
+    .cont-apc {
+        padding-top: 6px;
+    }
+
+    .content .cont-apc h2{
+        font-size: 12px;
+        padding-top: 5px;
+    }       
+
+    .cont-apc p{
+        padding-top: 0px;
+        font-size: 10px;
+    }
+
+    /*///Contato\\\*/
+
+    .cont-tel img,
+    .cont-email img,
+    .cont-social img,
+    .cont-ender img,
+    .cont-pet img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .cont-logo img  {
+        display: none;
+    }
+
+    .cont-info {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+    .cont-tel ul {
+        padding-top: 10px;
+    }
+
+    .cont-tel a {
+        padding: 0 10px;
+    }
+
+    .cont-email a {
+        padding-top: 10px;
+    }
+
+    .cont-social p{
+        padding-top: 5px;
+    }
+
+    .cont-social ul {
+        padding-top: 10px;
+    }
+
+    .cont-ender a{    
+        padding-top: 5px;
+    }
+
+    .cont-tur {
+        padding-top: 0px;
+    }
+
+    .cont-tur img{
+        width: 25vh;
+    }
+
+    .linha-2 {
+        padding-top: 5px;
+    }
+
+    .cont-footer li{
+        padding-top: 5px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 414px) {
+
+    :root {
+        --swiper-navigation-size: 30px;
+    }
+
+    .swiper-button-prev {
+        height: 0;
+        left: -20px;    
+    }
+
+    .swiper-button-next {
+        height: 0;
+        right: -20px;
+    }
+
+    .loading-center {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        height: 65px;
+        width: 80px;
+    }    
+
+    .icon-scroll {
+        width: 30px;
+        height: 50px;
+        margin: auto;
+        box-shadow: inset 0 0 0 2px #000;
+        border-radius: 25px;
+        z-index: 1;
+    }
+
+    .icon-scroll:before {
+        content: '';
+        width: 4px;
+        height: 8px;
+        background: #000;
+        top: 6px;
+        border-radius: 4px;
+        animation-duration: 700ms;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+        -webkit-animation-name: scroll;
+        animation-name: scroll;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        position: absolute;
+    }
+
+    @keyframes scroll {
+        0% {
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+        }
+    }
+
+    /*////Menu Acordian\\\\*/
+
+    nav li {
+        height: 35px;
+    }
+
+    nav li a {
+        font-size: 12px;
+    }
+
+    nav li a i {
+        top: 10px;
+        left: 10px;
+        font-size: 15px;
+    }
+
+    a:hover {
+        padding: 0 20px 0 40px;
+    }
+
+    /*Sobre*/
+
+    .slide-text {
+        width: 60%;
+    }
+
+    /*///Instalações\\\*/
+    .text-inst {
+        font-size: 14px;
+    }
+
+    .text-inst p{
+        padding-bottom: 5px;
+    }
+
+    /*///Suites\\\*/
+    .swiper-slide-suites .suites h5{
+        font-size: 10px;
+        padding-top: 25px;
+    }
+
+    .tab-menu{
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 11px;
+    }
+
+    /*///Culinária\\\*/
+    .swiper-slide-culi .content-culi {
+        width: 75%;
+    }
+
+    .swiper-slide-culi .content-culi .title-culi {
+        font-size: 16px;
+    }
+
+    :root {
+        --swiper-navigation-size-culi: 20px;
+    }
+    .swiper-button-prev-culi,
+    .swiper-button-next-culi {
+        /*top: 45%;*/
+        width: calc(var(--swiper-navigation-size-culi) / 20 * 27);
+        height: var(--swiper-navigation-size-culi);
+        margin-top: calc(0 - (var(--swiper-navigation-size-culi) / 2));
+        padding: 20px 0px;
+    }
+
+    .swiper-button-prev-culi,
+    .swiper-container-rtl .swiper-button-next-culi {
+        right: 38px;
+        left: auto;
+    }
+    .swiper-button-next-culi,
+    .swiper-container-rtl .swiper-button-prev-culi {
+        right: 5px;
+        left: auto;
+    }
+
+    /*///Lazer\\\*/
+
+    .lazer-title {
+        padding-top: 5px;
+        font-size: 14px;
+    }
+
+    .lazer-descri {
+        padding-top: 5px;
+        font-size: 12px;
+        line-height: 1.3em;
+    }
+
+    .lazer-text {
+        transform: translateX(0%);
+        width: 90%;
+    }
+
+    .swiper-button-next-lazer,
+    .swiper-button-prev-lazer {
+        top: 90%;
+        padding: 15px 12px;
+    }
+
+    .swiper-button-prev-lazer,
+    .swiper-container-rtl .swiper-button-next-lazer {
+        right: 53px;
+    }
+
+    .swiper-button-next-lazer,
+    .swiper-container-rtl .swiper-button-prev-lazer {
+        right: 20px;
+    }
+
+    /*///Eventos\\\*/
+
+    .swiper-container-eventos {
+        width: 100%;
+        position: relative;
+        max-height: 450px;
+    }
+
+    .slider-image-eventos img{
+        height: 280px;
+    }
+
+    .slider-content-eventos {
+        padding-top: 20px;
+        padding-right: 20%;
+    }
+
+    .slider-content-eventos h1 {
+        font-size: 16px;
+    }
+
+    :root {
+        --swiper-navigation-size-eventos: 10px;
+    }
+
+    .swiper-button-next-eventos,
+    .swiper-button-prev-eventos {
+        top: 77%;
+        padding: 15px 12px;
+    }
+
+    .swiper-button-prev-eventos,
+    .swiper-container-rtl .swiper-button-next-eventos {
+        right: 38px;
+    }
+
+    .swiper-button-next-eventos,
+    .swiper-container-rtl .swiper-button-prev-eventos {
+        right: 8px;
+    }
+
+    /*///Informações\\\*/
+
+    .tab-menu-valores {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .tab-menu-valores .swiper-slide-valores h5{
+        font-size: 12px;
+    }
+
+    /*///Valores\\\*/
+
+    .valor {
+        padding-top: 5px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    table thead th {
+        padding: 10px;
+        font-size: 11px;
+
+    }
+
+    table tbody tr td {
+        font-size: 10px;
+        padding: 10px 1px 10px 1px;
+    }
+
+    .titulo-valores-suite-gold,
+    .titulo-valores-suite-silver,
+    table tbody tr td {
+        font-size: 11px;
+    }
+
+    /*///Avisos\\\*/
+    .content .cont-apc {
+        padding-top: 10px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .cont-apc h2{
+        font-size: 12px;
+    }
+    /*Text*/
+    .cont-apc p{
+        font-size: 10px;
+    }
+
+    /*///Contato\\\*/
+    /*Ajuste do tamanho dos icones além dos 25 no html*/
+    .cont-tel img,
+    .cont-email img,
+    .cont-social img,
+    .cont-ender img,
+    .cont-pet img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .cont-logo img {
+        width: 25vh;
+    }
+
+    .cont-tel a {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-height: 320px) {
+
+    /*///Suites\\\*/
+    .swiper-slide-suites .suites h5{
+        font-size: 10px;
+        padding-top: 12px;
+    }
+
+
+    /*///Lazer\\\*/
+    .container-slider-lazer {
+        height: 230px;
+    }    
+
+    .lazer-img {
+        transform: translateY(-35%);
+        height: 60%;
+    }
+
+    .swiper-pagination-lazer {
+        top: 44%;
+    }
+
+    .lazer-text {
+        margin-right: 70px;
+        width: 80%;
+    }
+
+    .lazer-title {
+        padding-top: 0px;
+        font-size: 12px;
+    }
+
+    .lazer-descri {
+        padding-top: 5px;
+        font-size: 10px;
+        line-height: 1.1em;
+    }
+
+    /*///Eventos\\\*/
+
+    /*Tamanho do card*/
+    .swiper-container-eventos {
+        max-height: 180px;
+    }
+
+    .slider-image-eventos img{
+        height: 90px;
+    }
+
+    .slider-content-eventos {
+        padding-top: 5px;
+    }
+
+    .slider-content-eventos h1 {
+        font-size: 14px;
+    }
+
+    .slider-content-eventos p {
+        padding-top: 0px;
+        font-size: 10px;
+    }
+
+    :root {
+        --swiper-navigation-size-eventos: 10px;
+    }
+
+    .swiper-button-next-eventos,
+    .swiper-button-prev-eventos {
+        top: 67%;
+        padding: 15px 12px;
+    }
+
+    .swiper-button-prev-eventos,
+    .swiper-container-rtl .swiper-button-next-eventos {
+        right: 40px;
+    }
+
+    .swiper-button-next-eventos,
+    .swiper-container-rtl .swiper-button-prev-eventos {
+        right: 10px;
+    }
+
+    /*///Informações\\\*/
+    .titulo-valores h4 {
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+
+    .tab-menu-valores .swiper-slide-valores{
+        padding: 3px 0 3px 0;
+    }
+
+    .tab-menu-valores .swiper-slide-valores h5{
+        font-size: 10px;
+    }
+
+    table thead th {
+        padding: 3px;
+    }
+
+    table tbody tr td {
+        font-size: 10px;
+        padding: 3px;
+    }
+
+    /*///Avisos\\\*/
+    .content .cont-apc {
+        padding-top: 5px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .content .cont-apc h2{
+        font-size: 10px;
+        padding-top: 0px;
+    }
+    /*Text*/
+    .cont-apc p{
+        padding-top: 0px;
+        font-size: 10px;
+    }
+
+    /*///Contato\\\*/
+    .cont-info {
+        font-size: 10px;
+        padding-top: 3px;
+    }
+
+    .cont-tel ul {
+        padding-top: 3px;
+    }
+
+    .cont-tel a {
+        font-size: 14px;  
+    }
+
+    .cont-email a {
+        font-size: 12px;  
+        padding-top: 3px;
+    }
+
+    .cont-social p{
+        font-size: 10px;
+        padding-top: 3px;
+    }
+
+    .cont-social ul {
+        padding-top: 5px;
+    }
+
+    .cont-ender a{
+        font-size: 10px;       
+        padding-top: 3px;
+    }
+
+    .cont-pet a {
+        font-size: 10px;   
+    }
+
+    .linha-2 {
+        padding-top: 3px;
+    }
+
+    .cont-footer li{
+        font-size: 10px;
+        padding-top: 3px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    /*logo*/
+    header img { 
+        width: 30vh;
+    }
+
+    .swiper-slide-inst {
+        max-width: 200px;
+        max-height: 290px;
+    }
+
+    .swiper-pagination-bullet{
+        width: 5px;
+    }
+
+    .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 1px;
+    }
+
+    /*///Suites\\\*/
+    .tab-content .suites img {
+        padding-top: 10px; 
+    }
+
+    /*Texto diferencial*/
+    .swiper-slide-suites .suites h5{
+        font-size: 11px;
+        padding-top: 20px;
+    }
+
+
+    /*///Lazer\\\*/
+    .container-slider-lazer {
+        height: 78%;
+    }
+
+    .lazer-img {
+        transform: translateY(-18%);
+    }
+
+    .lazer-text {
+        transform: translateY(-5%);
+        width: 100%;
+    }
+
+    .lazer-title {
+        padding-top: 0px;
+        font-size: 12px;
+    }
+
+    .lazer-descri {
+        padding-top: 5px;
+        font-size: 11px;
+        line-height: 1.1em;
+    }
+
+    /*Faz os pontos ficar em coluna*/
+    .swiper-pagination-lazer-bullet {
+        width: 5px;
+        height: 12px;
+    }
+
+    .swiper-button-next-lazer,
+    .swiper-button-prev-lazer {
+        top: 87%;
+    }
+
+    /*///Eventos\\\*/
+
+    .titulo-eventos h4 {
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .swiper-container-eventos {
+        width: 100%;
+        position: relative;
+        max-height: 350px;
+    }
+
+    .slider-content-eventos {
+        padding-top: 10px;
+    }
+
+    .slider-image-eventos img{
+        height: 180px;
+    }
+
+    .slider-content-eventos h1 {
+        font-size: 16px;
+    }
+
+    .slider-content-eventos p {
+        font-size: 12px;
+    }
+
+    .swiper-button-next-eventos,
+    .swiper-button-prev-eventos {
+        top: 71%;
+    }
+
+    /*///Informações\\\*/
+    .titulo-valores h4 {
+        padding-bottom: 5px;
+        font-size: 14px;
+    }
+
+    .tab-menu-valores .swiper-slide-valores{
+        padding: 8px 0 8px 0;
+    }
+
+    .tab-menu-valores .swiper-slide-valores h5{
+        font-size: 10px;
+    }
+
+    .tab-menu-valores{
+        font-size: 12px;
+    }
+
+    table thead th {
+        padding: 8px;
+    }
+
+    table tbody tr td {
+        font-size: 10px;
+        padding: 8px 1px 8px 1px;
+    }
+
+
+    /*///Avisos\\\*/
+
+    .content .cont-apc {
+        padding-top: 5px;
+    }
+
+    .cont-apc h2{
+        padding-top: 5px;
+    }       
+
+    .cont-apc p{
+        padding-top: 5px;
+    }
+
+
+    /*///Contato\\\*/
+
+    .cont-tel img,
+    .cont-email img,
+    .cont-social img,
+    .cont-ender img,
+    .cont-pet img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .cont-logo a  {
+        display: none;
+    }
+
+    .cont-info {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    .cont-tel ul {
+        padding-top: 10px;
+    }
+
+    .cont-tel a {
+        font-size: 16px;  
+        padding: 0 5px;
+    }
+
+    .cont-email a {
+        padding-top: 10px;
+        font-size: 12px;   
+    }
+
+    .cont-social p{
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+    .cont-social ul {
+        padding-top: 10px;
+    }
+
+    .cont-ender a{
+        font-size: 12px;       
+        padding-top: 10px;
+    }
+
+    .cont-tur img{
+        width: 20vh;
+    }
+
+    .cont-pet a {
+        padding-top: 0px;
+        font-size: 10px;   
+    }
+
+    .linha-2 {
+        padding-top: 10px;
+    }
+
+    .cont-footer li{
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+}
