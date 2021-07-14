@@ -651,6 +651,12 @@
 
 @media screen and (max-width: 414px) {
 
+   /*Principal*/
+   /*para a barra de endereço do navegador via mobile sumir*/
+    .swiper-container {
+        overflow: auto;
+    }
+
     :root {
         --swiper-navigation-size: 30px;
     }

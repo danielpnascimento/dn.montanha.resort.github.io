@@ -1,9 +1,3 @@
-window.addEventListener("load",function() {
-    setTimeout(function(){
-        // This hides the address bar:
-        window.scrollTo(0, 1);
-    }, 0);
-});
 
 //Função para inicialização e desativação do loader para que ele não fique rodando
 //em segundo plano
