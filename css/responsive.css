@@ -252,6 +252,11 @@
         text-align: center;
     }
 
+    .cont-tel a {
+        font-size: 16px;
+        padding: 0 5px;
+    }
+
     .cont-ender {
         width: 70%;
         text-align: center;
@@ -927,10 +932,6 @@
         width: 25vh;
     }
 
-    .cont-tel a {
-        font-size: 16px;
-        padding: 0 5px;
-    }
 }
 
 @media screen and (max-height: 320px) {
