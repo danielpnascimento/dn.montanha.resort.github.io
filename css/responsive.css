@@ -928,6 +928,7 @@
     }
 
     .cont-tel a {
+        font-size: 16px;
         padding: 0 5px;
     }
 }
@@ -1274,8 +1275,6 @@
     .cont-tel a {
         font-size: 16px;  
         padding: 0 5px;
-
-        background-color: #33ffcc;
     }
 
     .cont-email a {
