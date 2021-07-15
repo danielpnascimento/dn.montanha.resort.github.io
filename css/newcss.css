@@ -1515,7 +1515,6 @@ table tbody tr td {
 }
 
 .vertical--center{
-    margin: 0 auto;
     background: #ffffff;
     width: 100%;
     height: 100%;
@@ -1524,19 +1523,12 @@ table tbody tr td {
     justify-content: center;
 }
 
-.vertical-center__element{
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-}
 
 .vertical-center__element p {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0.5em 0 0 1.5em;
     font-size: 12px;
 }
 
@@ -1545,7 +1537,7 @@ table tbody tr td {
     position: relative;
     width: 1.5em;
     height: 1.5em;
-    margin: 1.5px auto;  
+    margin: 1.5px 0 0 15px; 
     background: #3b403a;  
 }
 
