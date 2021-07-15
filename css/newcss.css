@@ -38,7 +38,8 @@ header img  {
 /*Principal*/
 .swiper-container {
     width: 100%;
-    height: 100vh;
+    /*height: 100%;*/
+     height: 100vh;
 }
 
 /*///Home\\\*/
@@ -303,7 +304,7 @@ ul li a:hover span {
 }
 
 .slide-text h1 {
-    font-size: 20px;
+    font-size: 16px;
     margin: 0;
     padding:0;
     font-weight: 400;
@@ -370,7 +371,7 @@ ul li a:hover span {
 .text-inst p{
     width: 50%;
     padding-bottom: 10px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     color: #000000;
 }
@@ -1515,12 +1516,24 @@ table tbody tr td {
 }
 
 .vertical--center{
+    /*margin: 0 auto;*/
     background: #ffffff;
     width: 100%;
     height: 100%;
-    display: flex;
+/*    display: block;*/
+
+     display: flex;
+    /*flex-direction: column;*/
     align-items: center;
     justify-content: center;
+}
+
+.vertical-center__element{
+    /*position: absolute;*/
+/*    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);*/
+
 }
 
 
@@ -1529,15 +1542,19 @@ table tbody tr td {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /*padding: 0.5em 0 0 1.5em;*/
+    padding-top: 0.2em;
     font-size: 12px;
 }
 
 .preloader{
-    display: block;
+    display:  block;
     position: relative;
     width: 1.5em;
     height: 1.5em;
-    margin: 1.5px 0 0 15px; 
+    /*margin: 1.5px auto;*/  
+    /*margin: 1.5px 1.5px;*/  
+    margin: 1.5px 0 0 15px;  
     background: #3b403a;  
 }
 
