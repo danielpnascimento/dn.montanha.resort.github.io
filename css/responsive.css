@@ -63,6 +63,12 @@
 
 @media screen and (max-height: 768px) {
 
+ /*Principal*/
+    /*para a barra de endereço do navegador via mobile sumir*/
+    .swiper-container {
+        overflow: auto;
+    }
+
     /*////Instalações\\\\*/
     .swiper-slide-inst {
         max-width: 230px;
