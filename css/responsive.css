@@ -102,12 +102,12 @@
 
     .swiper-button-prev-eventos,
     .swiper-container-rtl .swiper-button-next-eventos {
-        right: 50px;
+        right: 115px;
     }
 
     .swiper-button-next-eventos,
     .swiper-container-rtl .swiper-button-prev-eventos {
-        right: 12px;
+        right: 75px;
         left: auto;
     }
 
@@ -171,7 +171,7 @@
 
     .swiper-slide-suites .suites h5{
         font-size: 12px;
-            }
+    }
 
     /*///Lazer\\\*/
 
@@ -194,11 +194,11 @@
     .swiper-container-eventos {
         width: 100%;
         position: relative;
-        max-height: 500px;
+        max-height: 450px;
     }
 
     .slider-image-eventos img{
-        height: 350px;
+        height: 300px;
     }
 
     .slider-content-eventos {
@@ -220,18 +220,19 @@
 
     .swiper-button-next-eventos,
     .swiper-button-prev-eventos {
+        top: 78%;
         padding: 18px 14px;
     }
 
     .swiper-button-prev-eventos,
     .swiper-container-rtl .swiper-button-next-eventos {
-        right: 50px;
+        right: 88px;
 
     }
 
     .swiper-button-next-eventos,
     .swiper-container-rtl .swiper-button-prev-eventos {
-        right: 12px;
+        right: 50px;
         left: auto;
     }
 
@@ -405,7 +406,7 @@
 
     .swiper-slide-suites .suites h5{
         font-size: 11px;
-       bottom: 6px;
+        bottom: 6px;
     }
 
     .tab-content .suites img {
@@ -500,7 +501,7 @@
     }
 
     .swiper-container-eventos {
-        max-height: 250px;
+        max-height: 265px;
     }
 
     .slider-image-eventos img{
@@ -528,17 +529,17 @@
     }
     .swiper-button-next-eventos,
     .swiper-button-prev-eventos {
-        top: 75%;
+        top: 71%;
         padding: 15px 12px;
     }
 
     .swiper-button-prev-eventos,
     .swiper-container-rtl .swiper-button-next-eventos {
-        right: 50px;
+        right: 88px;
     }
     .swiper-button-next-eventos,
     .swiper-container-rtl .swiper-button-prev-eventos {
-        right: 12px;
+        right: 55px;
         left: auto;
     }
 
@@ -876,12 +877,12 @@
 
     .swiper-button-prev-eventos,
     .swiper-container-rtl .swiper-button-next-eventos {
-        right: 38px;
+        right: 48px;
     }
 
     .swiper-button-next-eventos,
     .swiper-container-rtl .swiper-button-prev-eventos {
-        right: 8px;
+        right: 15px;
     }
 
     /*///Informações\\\*/
@@ -1023,12 +1024,12 @@
 }
 
 @media screen and (max-height: 320px) {
-    
+
     /*///Instalações\\\*/
     .text-inst p{
         font-size: 12px;
     }
-    
+
     /*///Suites\\\*/
     .swiper-slide-suites .suites h5{
         font-size: 10px;
@@ -1101,12 +1102,12 @@
 
     .swiper-button-prev-eventos,
     .swiper-container-rtl .swiper-button-next-eventos {
-        right: 40px;
+        right: 65px;
     }
 
     .swiper-button-next-eventos,
     .swiper-container-rtl .swiper-button-prev-eventos {
-        right: 10px;
+        right: 30px;
     }
 
     /*///Informações\\\*/

@@ -1132,8 +1132,9 @@ ul li a:hover span {
 
 .slider-content-eventos {
     padding-top: 20px;
-    padding-left: 15%;
+    padding-left: 7%;
     padding-right: 15%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1208,7 +1209,7 @@ ul li a:hover span {
 
 .swiper-button-prev-eventos,
 .swiper-container-rtl .swiper-button-next-eventos {
-    right: 85px;
+    right: 154px;
     left: auto;
 }
 
@@ -1218,7 +1219,7 @@ ul li a:hover span {
 }
 .swiper-button-next-eventos,
 .swiper-container-rtl .swiper-button-prev-eventos {
-    right: 30px;
+    right: 100px;
     left: auto;
 }
 
