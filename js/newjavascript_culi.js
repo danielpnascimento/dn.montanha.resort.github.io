@@ -1,13 +1,20 @@
-
+// Params
 let mainSliderSelector = '.main-slider',
         navSliderSelector = '.nav-slider',
         interleaveOffset = 0.5;
 
+// Main Slider
 let mainSliderOptions = {
     loop: true,
     speed: 1300,
+//    autoplay: {
+//        delay: 3000
+//    },
+//    loopAdditionalSlides: 10,
     loopAdditionalSlides: 20,
     grabCursor: true,
+//    Faz a troca da img pelo meio da tela
+//    watchSlidesProgress: true,
     navigation: {
         nextEl: '.swiper-button-next-culi',
         prevEl: '.swiper-button-prev-culi',
@@ -56,8 +63,10 @@ let mainSliderOptions = {
 };
 let mainSlider = new Swiper(mainSliderSelector, mainSliderOptions);
 
+// Navigation Slider
 let navSliderOptions = {
     loop: true,
+//    loopAdditionalSlides: 10,
     loopAdditionalSlides: 20,
     speed: 1200,
     spaceBetween: 5,
@@ -77,5 +86,6 @@ let navSliderOptions = {
 };
 let navSlider = new Swiper(navSliderSelector, navSliderOptions);
 
+// Matching sliders
 mainSlider.controller.control = navSlider;
 navSlider.controller.control = mainSlider;

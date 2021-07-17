@@ -1,7 +1,7 @@
 
 @media screen and (max-width: 1024px) {
 
-    /*///lazer\\\*/
+    /*Card de fundo*/
     .container-slider-lazer {
         height: 71%;
     }
@@ -11,26 +11,40 @@
         flex-direction: column;
     }
 
+    /*Faz a imagem subir e aumentar em largura*/
     .lazer-img {
         transform: translateY(-20%);
         width: 90%;
         height: 60%;
     }
 
+    /*Posiciona o texto perante a imagem que esta deslocada*/
     .lazer-text {
         transform: translateX(0%);
         width: 80%;
     }
 
     .swiper-pagination-lazer {
+        /*top: 50%;*/
+        /*padding-left: 0%;*/
         display: flex;
         flex-direction: row;
         justify-content: center;
+        /*position:  fixed;*/
         align-items: flex-start;
         position: absolute;
+        /*padding-top: 120px;*/
+        /*padding-top: 60%;*/
         top: 51%;
     }
 
+    /*Faz cai em horizontal*/
+    .swiper-pagination-lazer-bullet {
+        /*display: inline-block;*/
+
+    }
+
+    /*variavel geral para o controle da culinaria*/
     :root {
         --swiper-navigation-size-lazer: 10px;
     }
@@ -52,49 +66,104 @@
         left: auto;
     }
 
+    /*titulo*/
     .lazer-title {
         font-size: 16px;
     }
-
+    /*texto*/
     .lazer-descri {
         font-size: 12px;
     }
+    
+   
 }
 
 @media screen and (max-height: 768px) {
 
+    /*Principal*/
+    /*para a barra de endereço do navegador via mobile sumir*/
     .swiper-container {
         overflow-y: auto;
     }
 
     /*////Instalações\\\\*/
     .swiper-slide-inst {
+        /*width: 230px;*/
         max-width: 230px;
+        /*height: 300px;*/
         max-height: 300px;
+    }
+
+    /*////Suites\\\\*/
+    /*Diminuindo a img para enquadramento no mobile PAISAGEM*/
+    .tab-content .suites img {
+        /*width: 100%;*/
+        /*width: 50%;*/
+
+        /*width: calc(100% + 1vh);*/
+        /*width: calc(50% + 0px);*/ 
+        /*height: 100%;*/
+        /*max-height: 100%;*/
+        /*max-width: 80%;*/
+        /*max-width: 85%;*/
+        /*max-width: 100%;*/
+
+        /*position: relative;*/
+        /*position: absolute;*/
+        /*left: 50%;*/
+        /*right: 50%;*/
+        /*top: 50%;*/
+
     }
 
 
     /*///Eventos\\\*/
 
+    /*Tamanho do card*/
     .swiper-container-eventos {
+        /*background: linear-gradient(270deg, rgba(247,249,255,1) 0%, rgba(242,246,255,1) 100%);*/
+        /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;*/
         width: 100%;
         position: relative;
+        /*max-width: 420px;*/
+        /*max-width: 800px;*/
+        /*height: 100%;*/
+        /*max-height: 420px;*/
+        /*max-height: 600px;*/
+        /*max-height: 330px;*/
         max-height: 370px;
+        /*border-radius: 10px;*/
+
+        /*    display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;*/
+
     }
 
+    /*Tamanho do espaço da imagem*/
     .slider-image-eventos img{
+        /*height: 200px;*/
         height: 250px;
+        /*height: 300px;*/
+        /*height: 450px;*/
+        /*width: 100%;*/
+        /*overflow: hidden;*/
     }
 
+    /*Titulo legenda*/
     .slider-content-eventos h1 {
         font-size: 16px;
     }
-
+    /*Caixa interna da parte de baixo*/
     .slider-content-eventos {
+        /*padding: 32px;*/
+        /*padding-top: 11px;*/
+        /*padding-top: 27px;*/
         padding-top: 15px;
     }
-
-    .swiper-button-next-eventos,
+    
+  .swiper-button-next-eventos,
     .swiper-button-prev-eventos {
         top: 80%;
         padding: 18px 14px;
@@ -102,11 +171,15 @@
 
     .swiper-button-prev-eventos,
     .swiper-container-rtl .swiper-button-next-eventos {
+        /*right: 50px;*/
         right: 115px;
+
     }
 
     .swiper-button-next-eventos,
     .swiper-container-rtl .swiper-button-prev-eventos {
+        /*right: 10px;*/
+        /*right: 12px;*/
         right: 75px;
         left: auto;
     }
@@ -115,16 +188,26 @@
 
 @media screen and (max-width: 768px) {
 
+    /*Posicionamento de exibição do video*/
     .video-container video {
+        /*top: 50%;*/
+        /*left: 70%;*/
+        /*direita e esquerda / em cima e em baixo*/ 
+        /*transform: translate(-60%, -35%);*/
         transform: translate(-40%, -0%);
+
     }
 
     /*///Home\\\*/
+    /*Titulo*/
     .swiper-slide .title p{
+        /*font-size: 30px;*/
         font-size: 20px;
+        /*margin-top: -50px;*/ 
     }
 
     /*Sobre*/
+
     .slide-text h1 {
         font-size: 14px;
     }
@@ -134,112 +217,183 @@
     }
 
     /*////Instalações\\\\*/
+    /*Cria margem de largura para quebra de texto centralizado e não ficar em comprido em linha */
     .text-inst p{
         width: 80%;
         font-size: 14px;
         padding-bottom: 5px;
     }
 
+    /*Titulo do slide dentro do slide*/
     .swiper-slide-inst p{
         font-size: 12px;
     }
 
+    /*Pontos da paginação*/
     .swiper-pagination-bullet{
         width: 6px;
     }
 
+    /*Distanciamento dos pontos*/
     .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
         margin: 0 1.5px;
     }
 
     /*////Suites\\\\*/
+    /*Distanciamento das laterais*/
     .tab-menu{
         padding-left: 10%;
         padding-right: 10%;
     }
 
+    /*Diminuindo a img para enquadramento no mobile PAISAGEM*/
     .tab-content .suites img {
+        /*width: 100%;*/
+        /*width: 50%;*/
+
+        /*width: calc(100% + 1vh);*/
+        /*width: calc(50% + 0px);*/ 
+        /*height: 100%;*/
+        /*max-height: 100%;*/
+        /*max-width: 70%;*/
         max-width: 80%;
-        padding-top: 10px;
+        /*max-width: 85%;*/
+        /*max-width: 100%;*/
+        padding-top: 10px; 
+        /*position: relative;*/
+        /*position: absolute;*/
+        /*left: 50%;*/
+        /*right: 50%;*/
+        /*top: 50%;*/
     }
 
+    /*Texto descritivo*/
     .text-suites h4{
         font-size: 12px;
         width: 80%;
         padding-top: 6px;
     }
 
+    /*Texto diferencial*/
     .swiper-slide-suites .suites h5{
         font-size: 12px;
+        /*padding-top: 30px;*/
     }
 
     /*///Lazer\\\*/
-
+    
+    /*titulo*/
     .lazer-title {
         font-size: 14px;
     }
 
+    /*texto*/
     .lazer-descri {
         font-size: 12px;
         line-height: 1.3em;
     }
-
+        
     .swiper-button-next-lazer,
     .swiper-button-prev-lazer {
+        /*top: 67%;*/
+        /*top: 92%;*/
         top: 88%;
     }
-
+    
     /*///Eventos\\\*/
 
+    /*Tamanho do card*/
     .swiper-container-eventos {
+        /*background: linear-gradient(270deg, rgba(247,249,255,1) 0%, rgba(242,246,255,1) 100%);*/
+        /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;*/
         width: 100%;
         position: relative;
+        /*max-width: 420px;*/
+        /*max-width: 800px;*/
+        /*height: 100%;*/
         max-height: 450px;
+        /*max-height: 600px;*/
+        /*max-height: 470px;*/
+        /*max-height: 500px;*/
+        /*border-radius: 10px;*/
+
+        /*    display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;*/
+
     }
 
+    /*Tamanho do espaço da imagem*/
     .slider-image-eventos img{
+        /*height: 200px;*/
         height: 300px;
+        /*height: 350px;*/
+        /*height: 450px;*/
+        /*    width: 100%;
+            overflow: hidden;*/
     }
 
+    /*Caixa interna da parte de baixo*/
     .slider-content-eventos {
+        /*padding: 32px;*/
         padding-top: 25px;
+        /*padding-left: 5%;*/
         padding-left: 10%;
+        /*        padding-right: 20%;*/
+        /*padding-right: 10%;*/
     }
 
+    /*Titulo legenda*/
     .slider-content-eventos h1 {
         font-size: 18px;
     }
 
+    /*Text legenda*/
     .slider-content-eventos p {
+        /*padding-top: 5px;*/
         font-size: 12px;
     }
 
+    /*variavel geral para o controle da culinaria*/
     :root {
         --swiper-navigation-size-eventos: 10px;
     }
 
     .swiper-button-next-eventos,
     .swiper-button-prev-eventos {
+        /*top: 32%;*/
         top: 78%;
         padding: 18px 14px;
     }
 
     .swiper-button-prev-eventos,
     .swiper-container-rtl .swiper-button-next-eventos {
+        /*right: 50px;*/
         right: 88px;
 
     }
 
     .swiper-button-next-eventos,
     .swiper-container-rtl .swiper-button-prev-eventos {
+        /*right: 10px;*/
+        /*right: 12px;*/
         right: 50px;
         left: auto;
     }
 
+   
+
     /*///Informações\\\*/
 
     .content .cont-apc {
+        /*width: 100%;*/
+        /*max-width: 100%;*/
+        /*padding: 10px;*/
+        /*padding-top: 20px;*/
         padding-top: 12px;
+        /*padding-top: 2vh;*/
+        /*padding-top: 15px;*/
         padding-left: 15%;
         padding-right: 15%;
 
@@ -248,6 +402,7 @@
     /*///Contato\\\*/
 
     .linha-2 {
+        /*padding-top: 10px;*/
         padding-top: 15px;
     }
 
@@ -256,6 +411,8 @@
     }
 
     .cont-info {
+        /*font-size: 12px;*/
+        /*width: 60%;*/
         width: 75%;
         text-align: center;
     }
@@ -266,6 +423,7 @@
     }
 
     .cont-ender {
+        /*width: 60%;*/
         width: 70%;
         text-align: center;
     }
@@ -274,7 +432,13 @@
         width: 15vh;
     }
 
+    /*Info do Pet*/
+    .cont-pet a{
+        font-size: 12px;      
+    }
+
     .cont-footer li{
+        /*font-size: 12px;*/
         padding-top: 20px;
     }
 
@@ -283,56 +447,93 @@
 
 @media screen and (max-height: 414px) {
 
+
+    /*Principal*/
+    /*para a barra de endereço do navegador via mobile sumir*/
     .swiper-container {
         overflow-y: auto;
     }
 
+
+    /*logo*/
     header img { 
+        /*top: 12px;*/
+        /*left: 12px;*/
+        /*width: calc(10% + 1%);*/
+        /*width: 18%;*/
+        /*width: 36%;*/
+        /*height: 8%;*/
         width: 50vh;
     }
 
+    /*Posicionamento de exibição do video*/
     .video-container video {
+        /*top: 50%;*/
+        /*left: 70%;*/
+        /*direita e esquerda / em cima e em baixo*/ 
+        /*transform: translate(-60%, -35%);*/
         transform: translate(-30%, -20%);
+
     }
 
+    /*Reduzindo o tamanho das controles*/
     :root {
         --swiper-navigation-size: 30px;
     }
 
     .swiper-button-prev {
         height: 0;
+        /*border-top: 10px solid transparent;*/
+        /*border-bottom: 10px solid transparent;*/
+        /*border-right: 10px solid #fff;*/
         left: -20px;    
     }
 
     .swiper-button-next {
         height: 0;
+        /*border-top: 10px solid transparent;*/
+        /*border-bottom: 10px solid transparent;*/
+        /*border-left: 10px solid #fff;*/
         right: -20px;
     }
 
+    /*Posicionamento do icone mouse*/
     .loading-center {
         position: absolute;
+        /*Para ficar em todas as paginas*/
+        /*position: fixed;*/
+        /*top: 0;*/
         left: 0;
         right: 0;
         bottom: 0;
         margin: auto;
+        /*height: 76px;*/
         height: 65px;
+        /*Distancia da seta do mouse*/
+        /*width: 53px;*/
         width: 80px;
     }    
 
     .icon-scroll {
+        /*width: 40px;*/
         width: 30px;
+        /*height: 70px;*/
         height: 50px;
         margin: auto;
+        /*box-shadow: inset 0 0 0 2px #fff;*/
         box-shadow: inset 0 0 0 2px #000;
         border-radius: 25px;
         z-index: 1;
     }
 
+    /*Ponto do mouse*/
     .icon-scroll:before {
         width: 4px;
         height: 8px;
         top: 6px;
+
     }
+
 
     @keyframes scroll {
         0% {
@@ -345,23 +546,59 @@
     }
 
 
-    /*////Menu Acordian\\\\*/
+    /*////Menu Accrodian\\\\*/
 
+    /*Ajuste de altura e espaço entre os icones*/
     nav li {
+        /*height: 60px;*/
+        /*height: 37px;*/
         height: 25px;
+        /*position: relative;*/
     }
 
+    /*Centraliza o texto nav*/
     nav li a {
+        /*line-height: 38px;*/
         font-size: 10px;
     }
 
+    /*Tamanho do icones e posição/dentro do background*/
     nav li a i {
+        /*position: absolute;*/
+        /*top: 17px;*/
         top: 5px;
+        /*left: 20px;*/
+        /*left: 10px;*/
+        /*font-size: 18px;*/
         font-size: 14px;
     }
 
+    /*tamanho do background transparente*/
     a:hover {
+        /*z-index: 1;*/
+        /*width: 150px;*/
+        /*border-bottom: 1px solid rgba(0,0,0,.5);*/
+        /*box-shadow: 0 0 1px 1px rgba(0,0,0,.3);*/
         padding: 0px 20px 0 50px;
+    }
+
+    /*Distanciamento do texto menu*/
+    ul li a:hover span {
+        /*display: block;*/
+        /*padding-left: 25%;*/ 
+    }
+
+
+    /*Video*/
+
+    /*Posicionamento de exibição do video*/
+    .video-container video {
+        /*top: 50%;*/
+        /*left: 70%;*/
+        /*direita e esquerda / em cima e em baixo*/ 
+        /*transform: translate(-60%, -35%);*/
+        /*transform: translate(0%, 0%);*/
+
     }
 
     /*////Instalações\\\\*/
@@ -370,48 +607,101 @@
         font-size: 14px;
     }
 
+    /*Cria margem de largura para quebra de texto centralizado e não ficar em comprido em linha */
     .text-inst p{
+        /*width: 80%;*/
         font-size: 14px;
+        /*padding-bottom: 5px;*/
     }
 
     .swiper-slide-inst {
+        /*width: 100px;*/
         max-width: 100px;
+        /*height: 150px;*/
         max-height: 150px;
     }
 
+    /*Titulo do slide dentro do slide*/
     .swiper-slide-inst p{
         font-size: 10px;
         bottom: 6px;
         right: 4px;
+
     }
 
     /*///Suites\\\*/
+    /*Texto titulo*/
     .titulo-suites h4 {
+        /*display: flex;*/
+        /*align-items: center;*/
+        /*justify-content: center;*/
+        /*padding-top: 30px;*/
         padding-top: 20px;
         padding-bottom: 3px;
         font-size: 14px;
+        /*bottom: 50px;*/
+        /*font-weight: bolder;*/
+        /*font-weight: 400;*/
     }
 
+    .text-suites {
+        /*margin-bottom: 5px;*/ 
+    }
+
+    /*Texto descritivo*/
     .text-suites h4{
         font-size: 10px;
+        /*line-height: 14px;*/
     }
 
+    /*Caixa nav*/
     .tab-menu .swiper-slide-suites{
+        /*border-bottom: 1px solid #000000;*/
+        /*transition: all 0.5s ease-in-out;*/
+        /*cursor: pointer;*/
+        /*background: #F2F2F2;*/
         padding: 3px 0 3px 0;
+        /*padding: 5px 0 0px 0;*/
     }
 
+    /*Texto nav*/
     .tab-menu .swiper-slide-suites h5{
         font-size: 12px;
     }
 
+    /*Texto diferencial*/
     .swiper-slide-suites .suites h5{
         font-size: 11px;
+        /*font-weight: 400;*/
+        /*text-align: center;*/
+        /*padding-top: 45px;*/
+        /*padding-top: 15px;*/
         bottom: 6px;
+        /*padding-bottom: 8px;*/
+        /*padding: 30px;*/
+        /*font-style:  italic;*/
     }
 
+    /*Diminuindo a img para enquadramento no mobile PAISAGEM*/
     .tab-content .suites img {
+        /*width: 100%;*/
+        /*width: 50%;*/
+
+        /*width: calc(100% + 1vh);*/
+        /*width: calc(50% + 0px);*/ 
+        /*height: 100%;*/
+        /*max-height: 100%;*/
+        /*max-width: 50%;*/
         max-width: 45%;
+        /*max-width: 55%;*/
+
+        /*position: relative;*/
+        /*position: absolute;*/
+        /*left: 50%;*/
+        /*right: 50%;*/
+        /*top: 50%;*/
         padding-top: 5px; 
+
     }
 
     /*///Culinária\\\*/
@@ -419,7 +709,9 @@
         width: 70%;
     }
 
+    /*Titulo da imagem do conteudo*/
     .swiper-slide-culi .content-culi .title-culi {
+        /*font-size: 1.6em;*/
         font-size: 16px;
     }
 
@@ -437,127 +729,203 @@
 
     .swiper-button-prev-culi,
     .swiper-container-rtl .swiper-button-next-culi {
+        /*    left: 10px;
+            right: auto;*/
         right: 38px;
         left: auto;
     }
     .swiper-button-next-culi,
     .swiper-container-rtl .swiper-button-prev-culi {
+        /*right: 10px;*/
         right: 5px;
         left: auto;
     }
 
     /*///lazer\\\*/
 
+    /*Card de fundo*/
     .container-slider-lazer {
         height: 280px;
         top: 20px;
     }
 
+    /*Faz a imagem subir*/
     .lazer-img {
         transform: translateY(-25%);
+        /*height: 70%;*/
         height: 80%;
     }
 
+    /*Posiciona o texto perante a imagem que esta deslocada*/
     .lazer-text {
         margin-right: 60px;
         transform: translateY(-50%);
+        /*transform: translateY(-30%);*/
+        /*width: 85%;*/
         width: 90%;
     }
 
+    /*titulo*/
+    .lazer-title {
+        /*padding-top: 5px;*/
+        /*font-size: 12px;*/
+    }
+
+    /*texto*/
     .lazer-descri {
+        /*color: #4e4a67;*/
         padding-top: 5px;
+        /*font-size: 12px;*/
         line-height: 1.2em;
     }
 
     .swiper-button-next-lazer,
     .swiper-button-prev-lazer {
+        /*top: 67%;*/
         top: 82%;
         padding: 15px 12px;
     }
 
     .swiper-button-prev-lazer,
     .swiper-container-rtl .swiper-button-next-lazer {
+        /*right: 40px;*/
         right: 50px;
     }
 
     .swiper-button-next-lazer,
     .swiper-container-rtl .swiper-button-prev-lazer {
+        /*right: 10px;*/
         right: 15px;
     }
     .swiper-pagination-lazer {
+        /*top: 53%;*/
         top: 60%;
+        /*padding-left: 0%;*/
     }
-
+    /*Faz os pontos ficar em coluna*/
     .swiper-pagination-lazer-bullet {
         width: 5px;
         height: 12px;
     }
 
+    /*}*/
+
     /*///Eventos\\\*/
 
+    /*Texto titulo*/
     .titulo-eventos h4 {
+        /*display: flex;*/
+        /*align-items: center;*/
+        /*justify-content: center;*/
+        /*padding-top: 30px;*/
         padding-bottom: 5px;
         font-size: 14px;
+        /*bottom: 50px;*/
+        /*font-weight: bolder;*/
+        /*font-weight: 400;*/
     }
 
+    /*Tamanho do card*/
     .swiper-container-eventos {
+        /*background: linear-gradient(270deg, rgba(247,249,255,1) 0%, rgba(242,246,255,1) 100%);*/
+        /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;*/
+        /*width: 100%;*/
+        /*max-width: 420px;*/
+        /*max-width: 800px;*/
+        /*height: 100%;*/
+        /*max-height: 250px;*/
         max-height: 265px;
+        /*max-height: 600px;*/
+        /*border-radius: 10px;*/
     }
 
+    /*Tamanho do espaço da imagem*/
     .slider-image-eventos img{
         height: 150px;
+        /*height: 400px;*/
+        /*height: 450px;*/
+        /*width: 100%;*/
     }
 
+    /*Caixa interna da parte de baixo*/
     .slider-content-eventos {
+        /*padding: 32px;*/
         padding-top: 10px;
     }
 
+    /*Tamanho do espaço da imagem*/
     .slider-image-eventos img{
         height: 150px;
+        /*height: 400px;*/
+        /*height: 450px;*/
     }
 
+    /*Titulo legenda*/
     .slider-content-eventos h1 {
         font-size: 16px;
     }
 
+    /*Text legenda*/
     .slider-content-eventos p {
+        /*padding-top: 5px;*/
         font-size: 12px;
     }
 
+    /*variavel geral para o controle da culinaria*/
     :root {
         --swiper-navigation-size-eventos: 10px;
     }
     .swiper-button-next-eventos,
     .swiper-button-prev-eventos {
+        /*top: 75%;*/
         top: 71%;
         padding: 15px 12px;
     }
 
     .swiper-button-prev-eventos,
     .swiper-container-rtl .swiper-button-next-eventos {
+        /*right: 50px;*/
         right: 88px;
     }
     .swiper-button-next-eventos,
     .swiper-container-rtl .swiper-button-prev-eventos {
+        /*right: 10px;*/
+        /*right: 12px;*/
         right: 55px;
         left: auto;
     }
 
     /*///Informações\\\*/
 
+    /*Texto titulo*/
     .titulo-valores h4 {
+        /*display: flex;*/
+        /*align-items: center;*/
+        /*justify-content: center;*/
+        /*padding-top: 30px;*/
         padding-bottom: 5px;
         font-size: 14px;
+        /*bottom: 50px;*/
+        /*font-weight: bolder;*/
+        /*font-weight: 400;*/
     }
 
     /*Caixa nav*/
     .tab-menu-valores .swiper-slide-valores{
+        /*border-bottom: 1px solid #000000;*/
+        /*transition: all 0.5s ease-in-out;*/
+        /*cursor: pointer;*/
+        /*background: #F2F2F2;*/
+        /*padding: 3px 0 3px 0;*/
+        /*padding: 5px 0 0px 0;*/
         padding: 7px 0 7px 0;
     }
 
+    /*Texto nav*/
     .tab-menu-valores .swiper-slide-valores h5{
         font-size: 12px;
     }
+
 
     /*///Valores\\\*/
 
@@ -565,6 +933,7 @@
         padding-top: 5px;
     }
 
+    /*Titulos tarifas*/
     table thead th {
         padding: 8px;
         font-size: 11px;
@@ -578,27 +947,44 @@
 
     /*Text linhas*/
     table tbody tr td {
+        /*display: table-cell;*/
+        /*font-weight: 400;*/
+        /*font-size: 14px;*/
         padding: 5px;
     }
 
     /*///Avisos\\\*/
 
     .cont-apc {
+        /*width: 50%;*/
+        /*padding: 10px;*/
+        /*padding-top: 1%;*/
+        /*padding-top: 0.9vh;*/
         padding-top: 6px;
+        /*padding-left: 10%;*/
+        /*padding-right: 10%;*/
     }
 
+    /*Titulos*/
     .content .cont-apc h2{
         font-size: 12px;
+        /*font-size: 2.7vh;*/
         padding-top: 5px;
     }       
 
+    /*Text*/
     .cont-apc p{
         padding-top: 0px;
+        /*padding-top: 0.1vh;*/
         font-size: 10px;
+        /*font-size: 2.7vh;*/
+        /*font-weight: normal;*/
+        /*text-align: left;*/
     }
 
     /*///Contato\\\*/
 
+    /*ajuste do tamanho dos icones além dos 25 no html*/
     .cont-tel img,
     .cont-email img,
     .cont-social img,
@@ -608,17 +994,21 @@
         height: 18px;
     }
 
+    /*Desativado a logo devido ao espaço*/
     .cont-logo img  {
         display: none;
     }
 
     .cont-info {
         font-size: 12px;
+        /*padding-top: 3px;*/
         padding-top: 5px;
     }
 
     .cont-tel ul {
+        /*padding-top: 5px;*/
         padding-top: 10px;
+
     }
 
     .cont-tel a {
@@ -626,18 +1016,30 @@
     }
 
     .cont-email a {
+        /*font-size: 12px;*/  
+        /*padding-top: 0px;*/
         padding-top: 10px;
     }
 
     .cont-social p{
+        /*font-size: 12px;*/
+        /*padding-top: 3px;*/
         padding-top: 5px;
     }
 
     .cont-social ul {
+        /*padding-top: 0px;*/
         padding-top: 10px;
     }
 
-    .cont-ender a{    
+    .cont-social a {
+        /*font-size: 12px;*/  
+        /*padding-top: 0px;*/
+        /*padding: 0 5px;*/
+    }
+
+    .cont-ender a{
+        /*font-size: 10px;*/       
         padding-top: 5px;
     }
 
@@ -646,14 +1048,19 @@
     }
 
     .cont-tur img{
+        /*width: 15vh;*/
+        /*width: 35vh;*/
         width: 25vh;
     }
 
     .linha-2 {
+        /*padding-top: 3px;*/
         padding-top: 5px;
     }
 
     .cont-footer li{
+        /*font-size: 10px;*/
+        /*padding-top: 3px;*/
         padding-top: 5px;
     }
 
@@ -663,51 +1070,79 @@
 
 @media screen and (max-width: 414px) {
 
-    /*Principal*/
-    /*para a barra de endereço do navegador via mobile sumir*/
-    .swiper-container {
-        overflow: auto;
+    /*logo*/
+    header img { 
+        /*top: 12px;*/
+        /*left: 12px;*/
+        /*width: calc(10% + 1%);*/
+        /*width: 18%;*/
+        /*width: 36%;*/
+        /*height: 4.3%;*/
+        /*width: 26vh;*/
     }
 
 
+    /*Reduzindo o tamanho das controles*/
     :root {
         --swiper-navigation-size: 30px;
     }
 
     .swiper-button-prev {
         height: 0;
+        /*border-top: 10px solid transparent;*/
+        /*border-bottom: 10px solid transparent;*/
+        /*border-right: 10px solid #fff;*/
         left: -20px;    
     }
 
     .swiper-button-next {
         height: 0;
+        /*border-top: 10px solid transparent;*/
+        /*border-bottom: 10px solid transparent;*/
+        /*border-left: 10px solid #fff;*/
         right: -20px;
     }
 
+    /*Posicionamento do icone mouse*/
     .loading-center {
         position: absolute;
+        /*Para ficar em todas as paginas*/
+        /*position: fixed;*/
+        /*top: 0;*/
         left: 0;
         right: 0;
         bottom: 0;
         margin: auto;
+        /*height: 76px;*/
         height: 65px;
+        /*Distancia da seta do mouse*/
+        /*width: 53px;*/
         width: 80px;
     }    
 
     .icon-scroll {
+        /*width: 40px;*/
         width: 30px;
+        /*height: 70px;*/
         height: 50px;
         margin: auto;
+        /*box-shadow: inset 0 0 0 2px #fff;*/
         box-shadow: inset 0 0 0 2px #000;
         border-radius: 25px;
         z-index: 1;
     }
 
+    /*Ponto do mouse*/
     .icon-scroll:before {
         content: '';
+        /*width: 6px;*/
         width: 4px;
+        /*height: 8px;*/
         height: 8px;
+        /*background: #fff;*/
         background: #000;
+        /* margin-left: -4px; */
+        /*top: 8px;*/
         top: 6px;
         border-radius: 4px;
         animation-duration: 700ms;
@@ -721,6 +1156,7 @@
         position: absolute;
     }
 
+
     @keyframes scroll {
         0% {
             opacity: 1;
@@ -731,30 +1167,102 @@
         }
     }
 
-    /*////Menu Acordian\\\\*/
+    /*////Menu Accrodian\\\\*/
 
+    /*Ajuste de altura e espaço entre os icones*/
     nav li {
+        /*height: 60px;*/
         height: 35px;
+        /*position: relative;*/
     }
 
+    /*Centraliza o texto nav*/
     nav li a {
+        /*line-height: 37px;*/
         font-size: 12px;
     }
 
+    /*Tamanho do icones e posição dentro do background*/
     nav li a i {
+        /*position: absolute;*/
+        /*top: 17px;*/
         top: 10px;
+        /*left: 20px;*/
         left: 10px;
+        /*font-size: 18px;*/
         font-size: 15px;
     }
 
+    /*tamanho do background transparente*/
     a:hover {
+        /*z-index: 1;*/
+        /*width: 130px;*/
+        /*border-bottom: 1px solid rgba(0,0,0,.5);*/
+        /*box-shadow: 0 0 1px 1px rgba(0,0,0,.3);*/
         padding: 0 20px 0 40px;
+    }
+
+    /*Distanciamento do texto menu*/
+    ul li a:hover span {
+        /*display: block;*/
+        /*padding-left: 17%;*/ 
+    }
+
+
+    /*Video*/
+
+    /*Posicionamento de exibição do video*/
+    .video-container video {
+        /*top: 50%;*/
+        /*left: 70%;*/
+        /*direita e esquerda / em cima e em baixo*/ 
+        /*transform: translate(-60%, -35%);*/
+        /*transform: translate(-50%, -0%);*/
+
     }
 
     /*Sobre*/
 
     .slide-text {
+        /*text-align: left;*/
+        /*color: white;*/
+        /*color: #000000;*/
+        /*opacity: 1;*/
+        /*z-index: 2;*/
+        /*font-family: 'IBM Plex Sans', sans-serif;*/
         width: 60%;
+        /*max-width:250px;*/
+        /*max-width:50px;*/
+        /*padding: 30px;*/
+        /*padding: 20px;*/
+        /*//display:none;*/
+        /*position: absolute;*/
+        /*right: 5%;*/
+        /*right: 3%;*/
+        /*left:  5%;*/
+        /*//animation: transitionText 2s ease;*/ 
+        /*background-color: #ffffff;*/
+        /*background-color: rgba(255, 255, 255, 0.6);*/
+    }
+
+    @keyframes transitionText {
+        0% {
+            /*right: -100%;*/
+        }
+        100%{
+            /*right: 5%;*/
+            /*right: 0%;*/
+        }
+    }
+
+    .slide-text h1 {
+        /*font-size: 13px;*/
+
+    }
+
+    .slide-text p {
+        /*font-size: 10px;*/
+
     }
 
     /*///Instalações\\\*/
@@ -762,16 +1270,21 @@
         font-size: 14px;
     }
 
+    /*Cria margem de largura para quebra de texto centralizado e não ficar em comprido em linha*/ 
     .text-inst p{
         padding-bottom: 5px;
     }
 
+
     /*///Suites\\\*/
+    /*Texto diferencial*/
     .swiper-slide-suites .suites h5{
         font-size: 10px;
+        /*padding-top: 25px;*/
         bottom: 6px;
     }
 
+    /*Distanciamento das laterais*/
     .tab-menu{
         padding-left: 10%;
         padding-right: 10%;
@@ -783,7 +1296,9 @@
         width: 75%;
     }
 
+    /*Titulo da imagem do conteudo*/
     .swiper-slide-culi .content-culi .title-culi {
+        /*font-size: 1.6em;*/
         font-size: 16px;
     }
 
@@ -801,28 +1316,34 @@
 
     .swiper-button-prev-culi,
     .swiper-container-rtl .swiper-button-next-culi {
+        /*    left: 10px;
+            right: auto;*/
         right: 38px;
         left: auto;
     }
     .swiper-button-next-culi,
     .swiper-container-rtl .swiper-button-prev-culi {
+        /*right: 10px;*/
         right: 5px;
         left: auto;
     }
 
     /*///Lazer\\\*/
 
+    /*titulo*/
     .lazer-title {
         padding-top: 5px;
         font-size: 14px;
     }
 
+    /*texto*/
     .lazer-descri {
         padding-top: 5px;
         font-size: 12px;
         line-height: 1.3em;
     }
 
+    /*Posiciona o texto perante a imagem que esta deslocada*/
     .lazer-text {
         transform: translateX(0%);
         width: 90%;
@@ -844,54 +1365,83 @@
         right: 20px;
     }
 
+
     /*///Eventos\\\*/
 
+    /*Tamanho do card*/
     .swiper-container-eventos {
+        /*background: linear-gradient(270deg, rgba(247,249,255,1) 0%, rgba(242,246,255,1) 100%);*/
+        /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;*/
         width: 100%;
         position: relative;
+        /*max-width: 420px;*/
+        /*max-width: 800px;*/
+        /*height: 100%;*/
+        /*max-height: 300px;*/
+        /*max-height: 400px;*/
         max-height: 450px;
+        /*max-height: 600px;*/
+        /*border-radius: 10px;*/
     }
 
+    /*Tamanho do espaço da imagem*/
     .slider-image-eventos img{
+        /*height: 230px;*/
         height: 280px;
+        /*height: 400px;*/
+        /*height: 450px;*/
+        /*width: 100%;*/
+        /*overflow: hidden;*/
     }
 
+    /*Caixa interna da parte de baixo*/
     .slider-content-eventos {
+        /*padding: 32px;*/
+        /*padding-top: 10px;*/
         padding-top: 20px;
         padding-right: 20%;
     }
 
+    /*Titulo legenda*/
     .slider-content-eventos h1 {
         font-size: 16px;
     }
 
+    /*variavel geral para o controle da culinaria*/
     :root {
         --swiper-navigation-size-eventos: 10px;
     }
 
     .swiper-button-next-eventos,
     .swiper-button-prev-eventos {
+        /*top: 32%;*/
         top: 77%;
         padding: 15px 12px;
     }
 
     .swiper-button-prev-eventos,
     .swiper-container-rtl .swiper-button-next-eventos {
+        /*right: 38px;*/
         right: 48px;
     }
 
     .swiper-button-next-eventos,
     .swiper-container-rtl .swiper-button-prev-eventos {
+        /*right: 8px;*/
         right: 15px;
+        /*left: auto;*/
     }
 
     /*///Informações\\\*/
 
+    /*Distanciamento das laterais*/
     .tab-menu-valores {
         padding-left: 10%;
         padding-right: 10%;
+        /*font-size: 12px;*/
     }
 
+    /*Texto nav*/
     .tab-menu-valores .swiper-slide-valores h5{
         font-size: 12px;
     }
@@ -904,13 +1454,17 @@
         padding-right: 10%;
     }
 
+    /*Titulos tarifas*/
     table thead th {
         padding: 10px;
         font-size: 11px;
 
     }
 
+    /*Text linhas*/
     table tbody tr td {
+        /*display: table-cell;*/
+        /*font-weight: 400;*/
         font-size: 10px;
         padding: 10px 1px 10px 1px;
     }
@@ -923,7 +1477,10 @@
 
     /*///Avisos\\\*/
     .content .cont-apc {
+        /*width: 50%;*/
+        /*padding: 10px;*/
         padding-top: 10px;
+        /*padding-top: 15px;*/
         padding-left: 10%;
         padding-right: 10%;
     }
@@ -933,11 +1490,15 @@
     }
     /*Text*/
     .cont-apc p{
+        /*padding-top: 3px;*/
         font-size: 10px;
+        /*font-size: 2.0vh;*/
+        /*font-weight: normal;*/
+        /*text-align: left;*/
     }
 
     /*///Contato\\\*/
-    /*Ajuste do tamanho dos icones além dos 25 no html*/
+    /*ajuste do tamanho dos icones além dos 25 no html*/
     .cont-tel img,
     .cont-email img,
     .cont-social img,
@@ -948,12 +1509,14 @@
     }
 
     .cont-logo img {
+        /*width: 100%;*/
+        /*height: 100%;*/
+        /*width: 22vh;*/
         width: 25vh;
     }
 
 }
 
-
 @media screen and (max-height: 360px) {
 
     /*///lazer\\\*/
@@ -987,79 +1550,67 @@
     }
 
 }
-
-
-@media screen and (max-height: 360px) {
-
-    /*///lazer\\\*/
-
-    /*Card de fundo*/
-    .container-slider-lazer {
-        /*height: 280px;*/
-        /*top: 20px;*/
-    }
-
-    /*Faz a imagem subir*/
-    .lazer-img {
-        transform: translateY(-25%);
-        height: 60%;
-        /*height: 80%;*/
-    }
-
-    .swiper-pagination-lazer {
-        top: 50%; 
-        /*top: 60%;*/
-        /*padding-left: 0%;*/
-    }
-
-    /*Posiciona o texto perante a imagem que esta deslocada*/
-    .lazer-text {
-        /*margin-right: 60px;*/
-        /*transform: translateY(-50%);*/
-        transform: translateY(-20%);
-        /*width: 85%;*/
-        /*width: 90%;*/
-    }
-
-}
-
 @media screen and (max-height: 320px) {
 
-    /*///Instalações\\\*/
+     /*///Instalações\\\*/
     .text-inst p{
         font-size: 12px;
     }
+    
+    /*logo*/
+    header img { 
+        /*top: 12px;*/
+        /*left: 12px;*/
+        /*width: calc(10% + 1%);*/
+        /*width: 18%;*/
+        /*width: 36%;*/
+        /*height: 8%;*/
+    }
 
     /*///Suites\\\*/
+    /*Texto diferencial*/
     .swiper-slide-suites .suites h5{
         font-size: 10px;
+        /*padding-top: 12px;*/
         bottom: 6px;
     }
 
+
     /*///Lazer\\\*/
+
+    /*Card de fundo*/
     .container-slider-lazer {
         height: 230px;
     }    
 
+    /*Faz a imagem subir*/
     .lazer-img {
         transform: translateY(-35%);
         height: 60%;
     }
 
     .swiper-pagination-lazer {
+        /*top: 51%;*/
         top: 44%;
     }
 
+    /*Posiciona o texto perante a imagem que esta deslocada*/
     .lazer-text {
+        /*margin-right: 0px;*/
+        /*margin-right: 50px;*/
         margin-right: 70px;
         transform: translateY(-30%);
+        /*width: 80%;*/
         width: 87%;
     }
 
+    /*titulo*/
     .lazer-title {
+        /*padding-top: 0px;*/
         font-size: 12px;
     }
 
+    /*texto*/
     .lazer-descri {
         padding-top: 5px;
         font-size: 10px;
@@ -1070,72 +1621,109 @@
 
     /*Tamanho do card*/
     .swiper-container-eventos {
+        /*background: linear-gradient(270deg, rgba(247,249,255,1) 0%, rgba(242,246,255,1) 100%);*/
+        /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;*/
+        /*width: 100%;*/
+        /*max-width: 420px;*/
+        /*max-width: 800px;*/
+        /*height: 100%;*/
         max-height: 180px;
+        /*max-height: 600px;*/
+        /*border-radius: 10px;*/
     }
 
+
+    /*Tamanho do espaço da imagem*/
     .slider-image-eventos img{
         height: 90px;
+        /*height: 100px;*/
+        /*height: 400px;*/
+        /*height: 450px;*/
+        /*width: 100%;*/
     }
 
+    /*Caixa interna da parte de baixo*/
     .slider-content-eventos {
+        /*padding: 32px;*/
         padding-top: 5px;
     }
 
+
+    /*Titulo legenda*/
     .slider-content-eventos h1 {
         font-size: 14px;
     }
 
+    /*Text legenda*/
     .slider-content-eventos p {
         padding-top: 0px;
         font-size: 10px;
     }
 
+    /*variavel geral para o controle da culinaria*/
     :root {
         --swiper-navigation-size-eventos: 10px;
     }
 
     .swiper-button-next-eventos,
     .swiper-button-prev-eventos {
+        /*top: 32%;*/
         top: 67%;
         padding: 15px 12px;
     }
 
     .swiper-button-prev-eventos,
     .swiper-container-rtl .swiper-button-next-eventos {
+        /*right: 40px;*/
         right: 65px;
     }
 
     .swiper-button-next-eventos,
     .swiper-container-rtl .swiper-button-prev-eventos {
+        /*right: 10px;*/
+        /*right: 15px;*/
         right: 30px;
+        /*left: auto;*/
     }
 
     /*///Informações\\\*/
+
+    /*Texto titulo*/
     .titulo-valores h4 {
         padding-bottom: 5px;
         font-size: 12px;
     }
 
+    /*Caixa nav*/
     .tab-menu-valores .swiper-slide-valores{
         padding: 3px 0 3px 0;
     }
 
+    /*Texto nav*/
     .tab-menu-valores .swiper-slide-valores h5{
         font-size: 10px;
     }
 
+
+    /*Titulos tarifas*/
     table thead th {
         padding: 3px;
     }
 
+    /*Text linhas*/
     table tbody tr td {
+        /*display: table-cell;*/
+        /*font-weight: 400;*/
         font-size: 10px;
         padding: 3px;
     }
 
     /*///Avisos\\\*/
     .content .cont-apc {
+        /*width: 50%;*/
+        /*padding: 10px;*/
         padding-top: 5px;
+        /*padding-top: 15px;*/
         padding-left: 15%;
         padding-right: 15%;
     }
@@ -1148,16 +1736,24 @@
     .cont-apc p{
         padding-top: 0px;
         font-size: 10px;
+        /*font-size: 2.0vh;*/
+        /*font-weight: normal;*/
+        /*text-align: left;*/
     }
 
     /*///Contato\\\*/
     .cont-info {
         font-size: 10px;
+        /*width: 75%;*/
+        /*width: 100%;*/
+        /*text-align: center;*/
         padding-top: 3px;
+        /*padding-top: 5px;*/
     }
 
     .cont-tel ul {
         padding-top: 3px;
+        /*padding-top: 10px;*/
     }
 
     .cont-tel a {
@@ -1166,34 +1762,42 @@
 
     .cont-email a {
         font-size: 12px;  
+        /*padding-top: 0px;*/
         padding-top: 3px;
     }
 
     .cont-social p{
         font-size: 10px;
         padding-top: 3px;
+        /*padding-top: 5px;*/
     }
 
     .cont-social ul {
+        /*padding-top: 0px;*/
         padding-top: 5px;
     }
 
     .cont-ender a{
         font-size: 10px;       
+        /*text-align: center;*/
+        /*padding-top: 0px;*/
         padding-top: 3px;
     }
 
     .cont-pet a {
+        /*padding-top: 0px;*/
         font-size: 10px;   
     }
 
     .linha-2 {
         padding-top: 3px;
+        /*padding-top: 5px;*/
     }
 
     .cont-footer li{
         font-size: 10px;
         padding-top: 3px;
+        /*padding-top: 5px;*/
     }
 }
 
@@ -1201,22 +1805,39 @@
 
     /*logo*/
     header img { 
+        /*top: 12px;*/
+        /*left: 12px;*/
+        /*width: calc(10% + 1%);*/
+        /*width: 18%;*/
+        /*width: 36%;*/
+        /*height: 5.5%;*/
         width: 30vh;
     }
 
+    /*///Instalações\\\*/
+    .text-inst {
+        /*font-size: 14px;*/
+    }
+
+    /*Cria margem de largura para quebra de texto centralizado e não ficar em comprido em linha*/ 
     .text-inst p{
+        /*padding-bottom: 5px;*/
         font-size: 12px;
     }
 
     .swiper-slide-inst {
+        /*width: 200px;*/
         max-width: 200px;
+        /*height: 290px;*/
         max-height: 290px;
     }
 
+    /*Pontos da paginação*/
     .swiper-pagination-bullet{
         width: 5px;
     }
 
+    /*Distanciamento dos pontos*/
     .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
         margin: 0 1px;
     }
@@ -1229,12 +1850,16 @@
     /*Texto diferencial*/
     .swiper-slide-suites .suites h5{
         font-size: 11px;
+        /*padding-top: 20px;*/
         bottom: 6px;
     }
 
 
     /*///Lazer\\\*/
+
+    /*Card de fundo*/
     .container-slider-lazer {
+        /*height: 80%;*/
         height: 78%;
     }
 
@@ -1242,16 +1867,21 @@
         transform: translateY(-18%);
     }
 
+    /*Posiciona o texto perante a imagem que esta deslocada*/
     .lazer-text {
+        /*margin-right: 50px;*/
         transform: translateY(-5%);
+        /*width: 85%;*/
         width: 100%;
     }
 
+    /*titulo*/
     .lazer-title {
         padding-top: 0px;
         font-size: 12px;
     }
 
+    /*texto*/
     .lazer-descri {
         padding-top: 5px;
         font-size: 11px;
@@ -1269,63 +1899,104 @@
         top: 87%;
     }
 
+
     /*///Eventos\\\*/
 
+    /*Texto titulo*/
     .titulo-eventos h4 {
+        /*display: flex;*/
+        /*align-items: center;*/
+        /*justify-content: center;*/
+        /*padding-top: 30px;*/
         padding-bottom: 5px;
         font-size: 16px;
+        /*bottom: 50px;*/
+        /*font-weight: bolder;*/
+        /*font-weight: 400;*/
     }
 
+    /*Tamanho do card*/
     .swiper-container-eventos {
+        /*background: linear-gradient(270deg, rgba(247,249,255,1) 0%, rgba(242,246,255,1) 100%);*/
+        /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;*/
         width: 100%;
         position: relative;
+        /*max-width: 420px;*/
+        /*max-width: 800px;*/
+        /*height: 100%;*/
+        /*max-height: 300px;*/
+        /*max-height: 300px;*/
         max-height: 350px;
+        /*max-height: 600px;*/
+        /*border-radius: 10px;*/
     }
 
+    /*Caixa interna da parte de baixo*/
     .slider-content-eventos {
+        /*padding: 32px;*/
         padding-top: 10px;
     }
 
+    /*Tamanho do espaço da imagem*/
     .slider-image-eventos img{
+        /*height: 130px;*/
         height: 180px;
+        /*height: 400px;*/
+        /*height: 450px;*/
     }
 
+    /*Titulo legenda*/
     .slider-content-eventos h1 {
         font-size: 16px;
     }
 
+    /*Text legenda*/
     .slider-content-eventos p {
+        /*padding-top: 5px;*/
         font-size: 12px;
     }
 
     .swiper-button-next-eventos,
     .swiper-button-prev-eventos {
+        /*top: 32%;*/
         top: 71%;
     }
-
     /*///Informações\\\*/
+
+    /*Texto titulo*/
     .titulo-valores h4 {
         padding-bottom: 5px;
         font-size: 14px;
     }
 
+    /*Caixa nav*/
     .tab-menu-valores .swiper-slide-valores{
         padding: 8px 0 8px 0;
     }
 
+    /*Texto nav*/
     .tab-menu-valores .swiper-slide-valores h5{
         font-size: 10px;
     }
 
+    /*Distanciamento das laterais*/
     .tab-menu-valores{
+        /*padding-left: 8%;*/
+        /*padding-left: 11%;*/
+        /*padding-right: 8%;*/
+        /*padding-right: 11%;*/
         font-size: 12px;
     }
 
+    /*Titulos tarifas*/
     table thead th {
         padding: 8px;
     }
 
+    /*Text linhas*/
     table tbody tr td {
+        /*display: table-cell;*/
+        /*font-weight: 400;*/
         font-size: 10px;
         padding: 8px 1px 8px 1px;
     }
@@ -1334,20 +2005,33 @@
     /*///Avisos\\\*/
 
     .content .cont-apc {
+        /*width: 50%;*/
+        /*padding: 10px;*/
+        /*padding-top: 0.5vh;*/
         padding-top: 5px;
+        /*padding-left: 10%;*/
+        /*padding-right: 10%;*/
     }
 
+    /*Titulos*/
     .cont-apc h2{
+        /*font-size: 10px;*/
+        /*font-size: 2.0vh;*/
         padding-top: 5px;
     }       
 
+    /*Text*/
     .cont-apc p{
         padding-top: 5px;
+        /*font-size: 10px;*/
+        /*font-size: 2.0vh;*/
+        /*font-weight: normal;*/
+        /*text-align: left;*/
     }
-
 
     /*///Contato\\\*/
 
+    /*ajuste do tamanho dos icones além dos 25 no html*/
     .cont-tel img,
     .cont-email img,
     .cont-social img,
@@ -1357,12 +2041,17 @@
         height: 16px;
     }
 
+    /*Desativado a logo devido ao espaço*/
     .cont-logo a  {
+        /*padding-top: 10px;*/
+        /*padding-bottom: 5px;*/
         display: none;
     }
 
     .cont-info {
         font-size: 12px;
+        /*width: 75%;*/
+        /*text-align: center;*/
         padding-top: 10px;
     }
 
@@ -1372,6 +2061,7 @@
 
     .cont-tel a {
         font-size: 16px;  
+        /*padding-top: 0px;*/
         padding: 0 5px;
     }
 
@@ -1382,6 +2072,7 @@
 
     .cont-social p{
         font-size: 12px;
+        /*padding-top: 3px;*/
         padding-top: 5px;
     }
 
@@ -1391,10 +2082,12 @@
 
     .cont-ender a{
         font-size: 12px;       
+        /*text-align: center;*/
         padding-top: 10px;
     }
 
     .cont-tur img{
+        /*width: 15vh;*/
         width: 20vh;
     }
 
