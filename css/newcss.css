@@ -571,11 +571,6 @@ ul li a:hover span {
     transition: opacity .6s ease, transform .3s ease;
     transition: opacity .6s ease, transform .3s ease, -webkit-transform .3s ease;
 }
-.titulo-culi h4{
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-}
 
 .swiper-container-vertical > .swiper-wrapper-culi {
     flex-direction: column;
@@ -597,6 +592,12 @@ ul li a:hover span {
     height: 100%;
     position: relative;
     transition-property: transform;
+}
+
+.slide-bg-culi img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .swiper-slide-culi {
