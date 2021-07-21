@@ -1425,17 +1425,22 @@ table tbody tr td {
 
 .cont-tel ul  {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 15px;
+    padding-top: 10px;
+}
+
+.cont-tel ul li {
+       padding-top: 5px; 
 }
 
 .cont-tel a {
     flex-direction:row;
     align-items: center;
     display: flex;
-    /*font-size: 20px;*/   
-     padding: 0 5px;
+    font-size: 20px;   
+    padding: 0 5px;
     pointer-events:none;
 }
 
