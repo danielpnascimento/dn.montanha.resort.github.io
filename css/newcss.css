@@ -1468,7 +1468,7 @@ table tbody tr td {
 
 .cont-social a {
     padding: 0 15px;
-    pointer-events: auto;
+    pointer-events:none;
 }
 
 .cont-ender a{
