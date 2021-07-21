@@ -661,7 +661,6 @@ ul li a:hover span {
 .swiper-container-culi.nav-slider {
     width: 20%;
     padding-left: 5px;
-    background-color: #dad3c0;
 }
 
 .swiper-container-culi.nav-slider .swiper-slide-culi {
@@ -1253,7 +1252,8 @@ ul li a:hover span {
     box-sizing: content-box;
     overflow: hidden;
     flex-direction: column;
-    justify-content: center;  width: 100%;
+    justify-content: center;  
+    width: 100%;
 }
 
 .titulo-valores h4 {
@@ -1468,6 +1468,7 @@ table tbody tr td {
 
 .cont-social a {
     padding: 0 15px;
+    pointer-events: auto;
 }
 
 .cont-ender a{
