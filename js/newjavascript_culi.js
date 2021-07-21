@@ -6,8 +6,8 @@ let mainSliderSelector = '.main-slider',
 
 // Main Slider
 let mainSliderOptions = {
-//    loop: true,
-    loop: false,
+    loop: true,
+//    loop: false,
     speed: 1300,
 //    autoplay: {
 //        delay: 3000
@@ -67,8 +67,8 @@ let mainSlider = new Swiper(mainSliderSelector, mainSliderOptions);
 
 // Navigation Slider
 let navSliderOptions = {
-//    loop: true,
-    loop: false,
+    loop: true,
+//    loop: false,
 //    loopAdditionalSlides: 10,
     loopAdditionalSlides: 20,
     speed: 1300,
