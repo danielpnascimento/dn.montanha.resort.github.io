@@ -40,5 +40,5 @@ Se você tiver algum feedback, por favor me informe por meio da box daniel.p.nas
 
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://danielpnascimento.netlify.app/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://dnmontanharesort.netlify.app/)
 
